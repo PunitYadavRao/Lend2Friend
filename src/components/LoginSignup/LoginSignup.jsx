@@ -192,6 +192,7 @@ const googleProvider = new GoogleAuthProvider();
 googleProvider.setCustomParameters({ prompt: "select_account" });
 
 const LoginSignup = () => {
+
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [errors, setErrors] = useState({ email: '', password: '' });
 
@@ -246,7 +247,7 @@ const LoginSignup = () => {
     try {
       await signInWithPopup(auth, googleProvider);
       console.log("Google Sign-In Successful");
-      navigate('/Dashboard')
+      navigate('/Layout')
     } catch (error) {
          
     }
