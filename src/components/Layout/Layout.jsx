@@ -7,10 +7,10 @@ import { FiPocket } from "react-icons/fi";
 import { FaRegMessage } from "react-icons/fa6";
 import { TbLogout2 } from "react-icons/tb";
 import Dashboard from '../Dashboard/Dashboard';
-import Messages from '../Messages/Messages';
-import Requests from '../Lend & Borrow/Requests';
-import Borrow from '../Lend & Borrow/Borrow';
-import Transactions from '../Transactions/Transactions';
+// import Messages from '../Messages/Messages';
+// import Requests from '../Lend & Borrow/Requests';
+// import Borrow from '../Lend & Borrow/Borrow';
+// import Transactions from '../Transactions/Transactions';
 
 
 const Layout = () => {
@@ -24,22 +24,22 @@ const Layout = () => {
         setActiveComponent(<Dashboard />);
         setActive('dashboard')
         break;
-      case 'requests':
-        setActiveComponent(<Requests />);
-        setActive('requests')
-        break;
-      case 'borrow':
-        setActiveComponent(<Borrow />);
-        setActive('borrow')
-        break;
-      case 'Transactions':
-        setActiveComponent(<Transactions />);
-        setActive('Transactions')
-        break;
-      case 'messages':
-        setActiveComponent(<Messages />);
-        setActive('messages')
-        break;
+      // case 'requests':
+      //   setActiveComponent(<Requests />);
+      //   setActive('requests')
+      //   break;
+      // case 'borrow':
+      //   setActiveComponent(<Borrow />);
+      //   setActive('borrow')
+      //   break;
+      // case 'Transactions':
+      //   setActiveComponent(<Transactions />);
+      //   setActive('Transactions')
+      //   break;
+      // case 'messages':
+      //   setActiveComponent(<Messages />);
+      //   setActive('messages')
+      //   break;
       default:
         setActiveComponent(<Dashboard />);
 
@@ -60,7 +60,7 @@ const Layout = () => {
           <h1 className='font-bold text-[2vmax] sm:text-[3vmax]'>Lend2Friend</h1>
         </div>
         <div className='flex items-center justify-center gap-4'>
-          <p className='font-normal text-[2vmax]'>Dikshant</p>
+          <p className='font-normal text-[2vmax]'>Putin Roo</p>
           <div className='h-15 w-15 rounded-full bg-zinc-400'></div>
         </div>
       </div>

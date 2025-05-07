@@ -6,8 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PageNotFound from './components/NotFound/PageNotFound.jsx'
 import LoginSignup from './components/LoginSignup/LoginSignup.jsx'
 import SignUp from './components/LoginSignup/SignUp.jsx'
-// import Dashboard from './components/Dashboard/Dashboard.jsx'
-// import Layout from './components/Layout/Layout.jsx'
+import Dashboard from './components/Dashboard/Dashboard.jsx'
+import Layout from './components/Layout/Layout.jsx'
 // import Messages from './components/Messages/Messages.jsx'
 
 
@@ -26,15 +26,15 @@ const router = createBrowserRouter([
     element:<SignUp />,
     errorElement:<PageNotFound />
   },
-  // {
-  //   path:'/Dashboard',
-  //   element:<Dashboard />,
-  //   errorElement:<PageNotFound />
-  // },
-  // {
-  //   path:'/Layout',
-  //   element:<Layout />
-  // },
+  {
+    path:'/Dashboard',
+    element:<Dashboard />,
+    errorElement:<PageNotFound />
+  },
+  {
+    path:'/Layout',
+    element:<Layout />
+  },
   // {
   //   path:'/Messages',
   //   element:<Messages />

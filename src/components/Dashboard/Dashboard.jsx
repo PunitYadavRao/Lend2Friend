@@ -5,7 +5,7 @@ const Dashboard = () => {
   return (
   <>
   <div>
-    <p>User: Dikshant Jangra</p>
+    <p>User: Putin Roo</p>
   </div>
   <div className='flex gap-15'>
     <div>
