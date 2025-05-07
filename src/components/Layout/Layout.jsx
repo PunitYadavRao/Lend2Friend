@@ -57,7 +57,7 @@ const Layout = () => {
       <div className='flex-none flex justify-between items-center p-4 bg-white shadow-sm'>
         <div className='flex items-center gap-3 text-[#00AC06]'>
           <span className='text-[5vmax]'><FaMoneyBillTransfer /></span>
-          <h1 className='font-bold text-[2vmax] sm:text-[3vmax]'>Borrow2Buddy</h1>
+          <h1 className='font-bold text-[2vmax] sm:text-[3vmax]'>Lend2Friend</h1>
         </div>
         <div className='flex items-center justify-center gap-4'>
           <p className='font-normal text-[2vmax]'>Dikshant</p>
